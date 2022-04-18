@@ -9,6 +9,7 @@ public class Shipyard : MonoBehaviour
     public RoomGroupSO StartingRooms;    
 
     public int RoomLimit = 30;
+    public int RoomSize = 30;
 
     public UnityEvent DoneGenerating;
 
@@ -34,7 +35,7 @@ public class Shipyard : MonoBehaviour
         {
             Vector3Int NextLocation = FindCollapsablePoint();
             RoomSO NextRoom = Domains[NextLocation][Random.Range(0, Domains[NextLocation].Length)];
-            CreatedRoomObjects.Add(Instantiate(NextRoom.Prefab, NextLocation * 6, Quaternion.identity));
+            CreatedRoomObjects.Add(Instantiate(NextRoom.Prefab, NextLocation * RoomSize, Quaternion.identity));
             CreatedRooms.Add(NextLocation, NextRoom);
 
             yield return null;

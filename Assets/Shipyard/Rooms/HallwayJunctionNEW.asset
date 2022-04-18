@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21a1cc481c356ef459618d3ac013f6f3, type: 3}
+  m_Name: HallwayJunctionNEW
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 3610935615887135592, guid: 345098312bee912428f268948b4fcc6e, type: 3}
+  NorthAllowedRooms: {fileID: 11400000, guid: d8349956b70651742a708bc3c6df7f25, type: 2}
+  SouthAllowedRooms: {fileID: 11400000, guid: 8a589de2235929a408599fd6c1689afe, type: 2}
+  EastAllowedRooms: {fileID: 11400000, guid: f54870e497564b842bb7d394aada50cf, type: 2}
+  WestAllowedRooms: {fileID: 11400000, guid: 60dc2676f9dbf3b4890b5ec0c2597a3c, type: 2}

@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AllowGeneratingFromHere: 1
   Rooms:
-  - {fileID: 11400000, guid: 0a0a00646f9f4f044904ace2072fac35, type: 2}
-  - {fileID: 11400000, guid: 48243e2a15417514b89732e8e7af15a6, type: 2}
-  - {fileID: 11400000, guid: 6eaf57966d148214eaa6fa77137cd54d, type: 2}
-  - {fileID: 11400000, guid: 316c7b0a8a3ffdb48bb155e1fa5a40e9, type: 2}
+  - {fileID: 11400000, guid: e791cb26d58ff064f92e026ce6214431, type: 2}
+  - {fileID: 11400000, guid: d6de1f33d159f6648b835c1971665697, type: 2}
+  - {fileID: 11400000, guid: a583b69fdfe01bc47b0a97bc4c7dd3f1, type: 2}
+  - {fileID: 11400000, guid: 346c2fb91dfba4c4dab08acaf86cc746, type: 2}
+  - {fileID: 11400000, guid: edd18a23948ee6c4ab5304c7a3d1eaee, type: 2}

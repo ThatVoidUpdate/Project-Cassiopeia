@@ -14,4 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AllowGeneratingFromHere: 0
   Rooms:
-  - {fileID: 11400000, guid: 0a0a00646f9f4f044904ace2072fac35, type: 2}
+  - {fileID: 11400000, guid: e791cb26d58ff064f92e026ce6214431, type: 2}
+  - {fileID: 11400000, guid: d6de1f33d159f6648b835c1971665697, type: 2}
+  - {fileID: 11400000, guid: a583b69fdfe01bc47b0a97bc4c7dd3f1, type: 2}

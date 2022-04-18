@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dba12a59f05647341a180675582ea75e, type: 3}
   m_Name: EmptyGroup
   m_EditorClassIdentifier: 
+  AllowGeneratingFromHere: 0
   Rooms: []
