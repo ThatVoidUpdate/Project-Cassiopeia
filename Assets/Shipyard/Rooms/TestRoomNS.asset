@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21a1cc481c356ef459618d3ac013f6f3, type: 3}
+  m_Name: TestRoomNS
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 3353972073920485246, guid: 5aee27677aa63f94a97358b86c4b235d, type: 3}
+  NorthEdgeType: {fileID: 11400000, guid: c083638e87b7c5c4c91fefe2c3312a9d, type: 2}
+  EastEdgeType: {fileID: 11400000, guid: 03ca56f0f14e5d8419800259f5a03075, type: 2}
+  SouthEdgeType: {fileID: 11400000, guid: c083638e87b7c5c4c91fefe2c3312a9d, type: 2}
+  WestEdgeType: {fileID: 11400000, guid: 03ca56f0f14e5d8419800259f5a03075, type: 2}
