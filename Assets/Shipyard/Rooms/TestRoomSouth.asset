@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TestRoomSouth
   m_EditorClassIdentifier: 
   Prefab: {fileID: 81812597970112719, guid: a6b3f53a4c08b1f44914a035d94993dd, type: 3}
-  NorthEdgeType: {fileID: 11400000, guid: 03ca56f0f14e5d8419800259f5a03075, type: 2}
-  EastEdgeType: {fileID: 11400000, guid: 03ca56f0f14e5d8419800259f5a03075, type: 2}
-  SouthEdgeType: {fileID: 11400000, guid: c083638e87b7c5c4c91fefe2c3312a9d, type: 2}
-  WestEdgeType: {fileID: 11400000, guid: 03ca56f0f14e5d8419800259f5a03075, type: 2}
+  NorthAllowedRooms: {fileID: 11400000, guid: aefcbc2b65a0e9c40a8f85eb72d3ff9d, type: 2}
+  SouthAllowedRooms: {fileID: 11400000, guid: f0a8d2a69fcc1334ea3308bd845c399d, type: 2}
+  EastAllowedRooms: {fileID: 11400000, guid: 3970089b3e7720e448f898cbc36bd10f, type: 2}
+  WestAllowedRooms: {fileID: 11400000, guid: abd1932930e2b4b46a27b21b74689083, type: 2}

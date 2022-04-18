@@ -152,8 +152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ebc645e9c79b22499403eece96646e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DefaultGroup: {fileID: 11400000, guid: b520f6da317004544a67ceba1418870f, type: 2}
-  IgnoreEdge: {fileID: 11400000, guid: 03ca56f0f14e5d8419800259f5a03075, type: 2}
+  StartingRooms: {fileID: 11400000, guid: b520f6da317004544a67ceba1418870f, type: 2}
+  RoomLimit: 40
   DoneGenerating:
     m_PersistentCalls:
       m_Calls: []

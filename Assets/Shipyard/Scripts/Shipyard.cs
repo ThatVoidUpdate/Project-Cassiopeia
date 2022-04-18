@@ -6,13 +6,15 @@ using System.Linq;
 
 public class Shipyard : MonoBehaviour
 {
-    public RoomGroupSO DefaultGroup;
-    public EdgeAvailabilitySO IgnoreEdge;
+    public RoomGroupSO StartingRooms;    
+
+    public int RoomLimit = 30;
 
     public UnityEvent DoneGenerating;
 
     private Dictionary<Vector3Int, RoomSO> CreatedRooms = new Dictionary<Vector3Int, RoomSO>();
     private Dictionary<Vector3Int, RoomSO[]> Domains = new Dictionary<Vector3Int, RoomSO[]>();
+    private List<GameObject> CreatedRoomObjects = new List<GameObject>();
 
     private void Start()
     {
@@ -22,17 +24,17 @@ public class Shipyard : MonoBehaviour
     public IEnumerator Generate()
     {
         //create a base room
-        RoomSO BaseRoom = DefaultGroup.Rooms[Random.Range(0, DefaultGroup.Rooms.Length)];
-        Instantiate(BaseRoom.Prefab, Vector3.zero, Quaternion.identity);
+        RoomSO BaseRoom = StartingRooms.Rooms[Random.Range(0, StartingRooms.Rooms.Length)];
+        CreatedRoomObjects.Add(Instantiate(BaseRoom.Prefab, Vector3.zero, Quaternion.identity));
         //add it to the created rooms dict
         CreatedRooms.Add(Vector3Int.zero, BaseRoom);
 
 
-        while (RecalculateDomains())
+        while (RecalculateDomains() && CreatedRooms.Count < RoomLimit)
         {
             Vector3Int NextLocation = FindCollapsablePoint();
             RoomSO NextRoom = Domains[NextLocation][Random.Range(0, Domains[NextLocation].Length)];
-            Instantiate(NextRoom.Prefab, NextLocation * 6, Quaternion.identity);
+            CreatedRoomObjects.Add(Instantiate(NextRoom.Prefab, NextLocation * 6, Quaternion.identity));
             CreatedRooms.Add(NextLocation, NextRoom);
 
             yield return null;

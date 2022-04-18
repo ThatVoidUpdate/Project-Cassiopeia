@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dba12a59f05647341a180675582ea75e, type: 3}
   m_Name: SouthOpen
   m_EditorClassIdentifier: 
-  Rooms: []
+  AllowGeneratingFromHere: 1
+  Rooms:
+  - {fileID: 11400000, guid: 0a0a00646f9f4f044904ace2072fac35, type: 2}
+  - {fileID: 11400000, guid: 48243e2a15417514b89732e8e7af15a6, type: 2}
+  - {fileID: 11400000, guid: 6eaf57966d148214eaa6fa77137cd54d, type: 2}
+  - {fileID: 11400000, guid: 316c7b0a8a3ffdb48bb155e1fa5a40e9, type: 2}

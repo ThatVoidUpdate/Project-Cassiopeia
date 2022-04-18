@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dba12a59f05647341a180675582ea75e, type: 3}
   m_Name: EastClosed
   m_EditorClassIdentifier: 
-  Rooms: []
+  AllowGeneratingFromHere: 0
+  Rooms:
+  - {fileID: 11400000, guid: 837ca09ef983b434fad89c4ee94de1ad, type: 2}
+  - {fileID: 11400000, guid: 48243e2a15417514b89732e8e7af15a6, type: 2}
+  - {fileID: 11400000, guid: 0a0a00646f9f4f044904ace2072fac35, type: 2}
