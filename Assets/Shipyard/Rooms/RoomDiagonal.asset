@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21a1cc481c356ef459618d3ac013f6f3, type: 3}
   m_Name: RoomDiagonal
   m_EditorClassIdentifier: 
-  Prefab: {fileID: 0}
-  NorthAllowedRooms: {fileID: 0}
-  SouthAllowedRooms: {fileID: 0}
-  EastAllowedRooms: {fileID: 0}
-  WestAllowedRooms: {fileID: 0}
+  Prefab: {fileID: 7466160133154154190, guid: 2ff8ae3ea16fcfb4ca378705dadafd3a, type: 3}
+  NorthAllowedRooms: {fileID: 11400000, guid: d8349956b70651742a708bc3c6df7f25, type: 2}
+  SouthAllowedRooms: {fileID: 11400000, guid: f0a8d2a69fcc1334ea3308bd845c399d, type: 2}
+  EastAllowedRooms: {fileID: 11400000, guid: f54870e497564b842bb7d394aada50cf, type: 2}
+  WestAllowedRooms: {fileID: 11400000, guid: 60dc2676f9dbf3b4890b5ec0c2597a3c, type: 2}
